@@ -1,4 +1,5 @@
 import {Pokemon} from './modules/affiche.js'
+
 let offset = 0
 let limit = 50
 
@@ -39,6 +40,12 @@ window.onscroll = function(){
 // }
 // getAllPokemon()
 
-
-
+// try{
+//     Pokemon.getPokemon()
+// }catch(err){
+//     console.log(err)
+//     console.log(err.message)
+// }finally{
+//     console.log('test')
+// }
 

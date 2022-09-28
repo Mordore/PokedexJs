@@ -1,0 +1,19 @@
+asynchrone : par défault js est un language synchrone
+synchrone prenait du temps a s'executer.
+
+exemple : 
+
+let x = 0;
+// l'execution de cette boucle devrait prendre un certain temps
+while (x <= 100000){
+    x++;
+}
+
+
+on n'a inventé les callback :
+
+'settimeout par exemple'
+
+en 2015 js à inventé les PROMISE, c'est l'outil le plus puissant fourni
+javascript
+une promise 
