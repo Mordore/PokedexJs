@@ -1,5 +1,7 @@
+
+
 let pokemon = document.getElementById("demo")
-let game = document.getElementById("gameaffiche")
+let game = document.getElementById("mappok")
 
 
 document.getElementById('battle').onclick = function(){

@@ -69,27 +69,26 @@ align-items: center;
     align-items: baseline; 
     flex-direction: column-reverse;
 }
-
-
-
 table{
-    border-collapse: collapse;
-    border-collapse: collapse;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-  
-  th, td, tr{
-    border: solid red 1px;
-    
-  }
-  
-.herbe{
+    z-index: 0;
+}
+
+td{
     background-image: url(../asset/img/Hautes_herbes.png);
-    background-repeat: no-repeat;
-    width: 38px;
-    height: 38px;
-    
+    background-size: 100%;
+    width: 43px;
+height: 34px;
+    display: flex;
+    flex-direction: column;
   }
+  
+#mappok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+tbody{
+    display: flex;
+}
